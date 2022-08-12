@@ -101,4 +101,5 @@ plt.xlabel('time')
 plt.ylabel('concentration')
 plt.legend(loc='best')
 
+plt.savefig('hedgehog.pdf', format='pdf')
 plt.show()
